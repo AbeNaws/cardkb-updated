@@ -32,11 +32,11 @@ The cardKB communicates over i2C, make sure this is enabled on your raspberry pi
 
 Connect the wires on the CardKB JST connector to the appropriate pin on the Raspberry Pi. 
 
-![CardKB/Raspberry Pi i2C connection](https://github.com/ian-antking/cardkb/blob/master/docs/wiring.png?raw=true)
+![CardKB/Raspberry Pi i2C connection](https://github.com/strpotowl/cardkb-updated/blob/master/docs/wiring.png?raw=true)
 
 You may need to improvise a connection solution with breadboard wires like so:
 
-![Assembled a raspberry pi and hyperpixel](https://github.com/ian-antking/cardkb/blob/master/docs/assembled-pi-keyboard.jpg?raw=true)
+![Assembled a raspberry pi and hyperpixel](https://github.com/strpotowl/cardkb-updated/blob/master/docs/assembled-pi-keyboard.jpg?raw=true)
 
 ## Load the uinput module
 
@@ -74,7 +74,7 @@ sudo pip3 install python-uinput
 clone this repository:
 
 ```
-git clone https://github.com/ian-antking/cardkb.git
+git clone https://github.com/strpotowl/cardkb-updated.git
 ```
 
 Run the script and check buttons return expected characters:
@@ -106,7 +106,7 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=/usr/bin/python3 /home/pi/cardkb
+ExecStart=/usr/bin/python3 /home/pi/cardkb-updated
 
 [Install]
 WantedBy=multi-user.target
@@ -116,7 +116,7 @@ This service file assumes that you have cloned the cardkb repo to /home/pi. If t
 
 ```
 ...
-ExecStart=/usr/bin/python3 /home/ian/cardkb
+ExecStart=/usr/bin/python3 /home/strpotowl/cardkb-updated
 ...
 ```
 
@@ -124,7 +124,7 @@ Likewise, if you are running cardkb on a i2c bus other than one, then you will n
 
 ```
 ...
-ExecStart=/usr/bin/python3 /home/pi/cardkb 11
+ExecStart=/usr/bin/python3 /home/pi/cardkb-updated 11
 ...
 ```
 
@@ -139,3 +139,6 @@ sudo reboot
 When your Pi restarts, your cardkb should be working, allowing you to log in.
 
 
+Full credit to Ian Antking (https://github.com/ian-antking)
+and his original project (https://github.com/ian-antking/cardkb) 
+which has helped me so much.
