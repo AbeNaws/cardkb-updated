@@ -125,4 +125,61 @@ ascii = {
     0x42: [uinput.KEY_LEFTSHIFT, uinput.KEY_B],
     0x4E: [uinput.KEY_LEFTSHIFT, uinput.KEY_N],
     0x4D: [uinput.KEY_LEFTSHIFT, uinput.KEY_M],
+
+    # arrow keys with ctrl
+    0x98: [uinput.KEY_LEFTCTRL, uinput.KEY_LEFT],
+    0x99: [uinput.KEY_LEFTCTRL, uinput.KEY_UP],
+    0xA4: [uinput.KEY_LEFTCTRL, uinput.KEY_DOWN],
+    0xA5: [uinput.KEY_LEFTCTRL, uinput.KEY_RIGHT],
+
+    # number row ctrl
+    0x80: [uinput.KEY_LEFTCTRL, uinput.KEY_ESC],
+    0x81: [uinput.KEY_LEFTCTRL, uinput.KEY_1],
+    0x82: [uinput.KEY_LEFTCTRL, uinput.KEY_2],
+    0x83: [uinput.KEY_LEFTCTRL, uinput.KEY_3],
+    0x84: [uinput.KEY_LEFTCTRL, uinput.KEY_4],
+    0x85: [uinput.KEY_LEFTCTRL, uinput.KEY_5],
+    0x86: [uinput.KEY_LEFTCTRL, uinput.KEY_6],
+    0x87: [uinput.KEY_LEFTCTRL, uinput.KEY_7],
+    0x88: [uinput.KEY_LEFTCTRL, uinput.KEY_8],
+    0x89: [uinput.KEY_LEFTCTRL, uinput.KEY_9],
+    0x8A: [uinput.KEY_LEFTCTRL, uinput.KEY_0],
+    0x8B: [uinput.KEY_LEFTCTRL, uinput.KEY_BACKSPACE],
+
+    # top row ctrl
+    0x8C: [uinput.KEY_LEFTCTRL, uinput.KEY_TAB],
+    0x8D: [uinput.KEY_LEFTCTRL, uinput.KEY_Q],
+    0x8E: [uinput.KEY_LEFTCTRL, uinput.KEY_W],
+    0x8F: [uinput.KEY_LEFTCTRL, uinput.KEY_E],
+    0x90: [uinput.KEY_LEFTCTRL, uinput.KEY_R],
+    0x91: [uinput.KEY_LEFTCTRL, uinput.KEY_T],
+    0x92: [uinput.KEY_LEFTCTRL, uinput.KEY_Y],
+    0x93: [uinput.KEY_LEFTCTRL, uinput.KEY_U],
+    0x94: [uinput.KEY_LEFTCTRL, uinput.KEY_I],
+    0x95: [uinput.KEY_LEFTCTRL, uinput.KEY_O],
+    0x96: [uinput.KEY_LEFTCTRL, uinput.KEY_P],
+
+    # home row ctrl
+    0x:9A [uinput.KEY_LEFTCTRL, uinput.KEY_A],
+    0x:9B [uinput.KEY_LEFTCTRL, uinput.KEY_S],
+    0x:9C [uinput.KEY_LEFTCTRL, uinput.KEY_D],
+    0x:9D [uinput.KEY_LEFTCTRL, uinput.KEY_F],
+    0x:9E [uinput.KEY_LEFTCTRL, uinput.KEY_G],
+    0x:9F [uinput.KEY_LEFTCTRL, uinput.KEY_H],
+    0x:A0 [uinput.KEY_LEFTCTRL, uinput.KEY_J],
+    0x:A1 [uinput.KEY_LEFTCTRL, uinput.KEY_K],
+    0x:A2 [uinput.KEY_LEFTCTRL, uinput.KEY_L],
+    0x:A3 [uinput.KEY_LEFTCTRL, uinput.KEY_ENTER],
+
+    # bottom row ctrl
+    0x:A6 [uinput.KEY_LEFTCTRL, uinput.KEY_Z],
+    0x:A7 [uinput.KEY_LEFTCTRL, uinput.KEY_X],
+    0x:A8 [uinput.KEY_LEFTCTRL, uinput.KEY_C],
+    0x:A9 [uinput.KEY_LEFTCTRL, uinput.KEY_V],
+    0x:AA [uinput.KEY_LEFTCTRL, uinput.KEY_B],
+    0x:AB [uinput.KEY_LEFTCTRL, uinput.KEY_N],
+    0x:AC [uinput.KEY_LEFTCTRL, uinput.KEY_M],
+    0x:AD [uinput.KEY_LEFTCTRL, uinput.KEY_COMMA],
+    0x:AE [uinput.KEY_LEFTCTRL, uinput.KEY_DOT],
+    0x:AF [uinput.KEY_LEFTCTRL, uinput.KEY_SPACE],
 }
