@@ -60,4 +60,5 @@ keys = [
     uinput.KEY_MINUS,
     uinput.KEY_NUMERIC_POUND,
     uinput.KEY_LEFTALT
+    uinput.KEY_LEFTCTRL
 ]
